@@ -22,7 +22,7 @@ html {
   color: #555;
 }
 
-.action-tools-top {
+.action-tools-top .action-btn {
   background-color: rgba(0, 0, 0, .2);
   filter: drop-shadow(0 .1em .1em #000);
   color: #fff;
