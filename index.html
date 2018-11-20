@@ -17,16 +17,13 @@
 
       <article class="action-card relative">
         <div class="dino">
-          <picture class="img-flex">
-            <source media="(min-width:60em)" srcset="images/blue-bolt-975.jpg, images/blue-bolt-975.jpg">
-            <source media="(min-width:38em)" srcset="images/blue-bolt-480.jpg, images/blue-bolt-480.jpg">
-              <img srcset="images/blue-bolt-480.jpg" src="images/blue-bolt-480.jpg" alt="">
-          </picture>
+
+          <img class="img-flex" srcset="images/blue-bolt-975.jpg 975w, images/blue-bolt-480.jpg 480w" sizes="(min-width: 60em) 33vw, (min-width: 38em) 50vw, 100vw" src="images/blue-bolt-480.jpg" alt="image card with dino">
         </div>
         <footer class="absolute pin-tr island-1-4">
           <menu class="list-group-inline">
             <li>
-              <button class="action-tools-top action-btn" type="button" name="button">
+              <button class="action-tools-top btn action-btn">
                 <i class="icon i-1">
                   <svg><use xlink:href="images/icons.svg#fullscreen"/></svg>
                 </i>
@@ -34,7 +31,7 @@
             </li>
 
             <li>
-              <button class="action-btn action-tools-top"  type="button" name="button">
+              <button class="action-btn btn action-tools-top">
                 <i class="icon i-1">
                   <svg><use xlink:href="images/icons.svg#download"/></svg>
                 </i>
@@ -51,7 +48,7 @@
         <footer>
           <menu class="list-group-inline gutter-1-4">
             <li>
-              <button class="btn action-btn action-tools-bottom" type="button" name="button">
+              <button class="btn action-btn action-tools-bottom">
                 <i class="icon i-1">
                   <svg><use xlink:href="images/icons.svg#heart"/></svg>
                 </i>
@@ -59,7 +56,7 @@
             </li>
 
             <li>
-              <button class="btn action-btn action-tools-bottom" type="button" name="button">
+              <button class="btn action-btn action-tools-bottom">
                 <i class="icon i-1">
                   <svg><use xlink:href="images/icons.svg#share"/></svg>
                 </i>
@@ -67,7 +64,7 @@
             </li>
 
             <li>
-              <button class="btn action-btn action-tools-bottom" type="button" name="button">
+              <button class="btn action-btn action-tools-bottom">
                 <i class="icon i-1">
                   <svg><use xlink:href="images/icons.svg#comment"/></svg>
                 </i>
